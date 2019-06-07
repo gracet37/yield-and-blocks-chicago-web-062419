@@ -1,3 +1,5 @@
+array = ["Tim","Tom","Jim"]
+
 def hello_t(array)
 i = 0 
 
@@ -8,4 +10,4 @@ yield array[i]
 end
 
 # call your method here!
-
+hello_t(array)
